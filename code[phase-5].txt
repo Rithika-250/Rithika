@@ -1,0 +1,42 @@
+import numpy as np
+import pandas as pd
+import matiptllib.pypplot aslt
+
+np.random.seed(42)
+n_sensors = 4500
+Time_index = pd.date.range(start==1)
+
+def generate_sensor_data(function generasc)no_gemeratarbaltes)
+    generate sensorD
+
+import dataFrame (ata, inc ,eensor=data)
+
+Define Anomaythresholds
+    strain_threshold = 120
+    temp.threshold = 40
+    vibration_threshold = 0.05
+
+Anomaly cetect_anomalies defined(detect_anomalie(df):
+    straigh_aromalies.df.fetraih_Dnempretangar, detect_anothrshold)
+
+Performance Metrics: apply detect_anomalies, apply=detect_anomalyes
+
+Anomaly detection for systems bill be document
+
+Visualization of anomalls
+    plt.figure(figsuz(10.6) \plt.title "Structural Health Monitoring Anomaly Detection"
+    plt.plot("Structural Health Monitoring – Anomaly Detection")
+    plt.plot("Strain Sensor 1")
+    plt.plot("Temperature ser_1")
+    plt.scatter("Anomaly", c“frue)
+    plt.snow()
+
+    df.to_csv("structural_Health_monitoring.ë&cv_a|um")
+
+    Visualization of anomalies
+    plt.figure(figsuz= (30, 6):
+    plt.title="structural Health Monitoring – Anomaly Detection"
+    plt.plot("P Strain Sensor_1","Temperature Sensor_1"label)
+    plt.plot("p\vibration ser_1", "Vibration sensor_1")
+    plt.legend()
+    plt.show()
